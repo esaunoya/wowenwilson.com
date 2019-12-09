@@ -7,5 +7,5 @@ function sayWow(){
 }
 
 function getRandom(max) {
-    return Math.floor(Math.random() * 1000) % numElem;
+    return Math.floor(Math.random() * 1000) % max;
 }
